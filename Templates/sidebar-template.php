@@ -22,7 +22,7 @@
 
 					<?php get_template_part('content', 'page'); ?>
 
-					<?php rara_post_nav(); ?>
+					<?php //rara_post_nav(); ?>
 
 
 					<?php

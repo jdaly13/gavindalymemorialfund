@@ -21,11 +21,7 @@
 
             	     <?php bloginfo( 'name' ); ?>
 
-                 </a>  | <?php _e( 'Theme by:', 'rara-clean' ); ?>
-
-               <a href=" <?php echo $my_theme->get( 'AuthorURI' ); ?> ">  <?php echo $my_theme->get( 'Author' ); ?> </a>   |
-                <?php printf(__('Powered by ', 'rara-clean')); ?><a href="http://wordpress.org/" rel="generator">
-                    <?php printf(__('%s', 'rara-clean'), 'WordPress'); ?></a>
+                 </a>  
 
 
              </p>

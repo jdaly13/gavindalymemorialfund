@@ -21,7 +21,7 @@
 
 					<?php get_template_part('content','single'); ?>
 
-					<?php rara_post_nav(); ?>
+					<?php //rara_post_nav(); ?>
 
 					<?php
 

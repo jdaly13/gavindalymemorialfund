@@ -4,14 +4,12 @@
  */
 ?>
 
-<article class="post" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-						
+<article class="post" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>			
 	<div class="heading">
 
 		<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
 							
 		 <div class="info">
-		
 			<time datetime="<?php echo esc_attr( get_the_date( 'c' ) ); ?>"><?php echo esc_html( get_the_date() );?></time>
 		
 			<span class="category"><?php the_category( ', ' ); ?></span>

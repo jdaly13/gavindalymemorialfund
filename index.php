@@ -38,7 +38,7 @@
 
 				<section id="content"<?php if ( ! is_active_sidebar( 'sidebar-1' ) ) echo ' class="no-sidebar"';?>>
 					
-
+						<?php query_posts( 'cat=-6' ); ?>
 						<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 						
 						<?php

@@ -1049,6 +1049,47 @@ div#jp-relatedposts div.jp-relatedposts-items-visual .jp-relatedposts-post {
  	display: block;
  	clear: both;
  }
+
+
+/* JAMES DALY CSS */
+
+@media only screen and (min-width:768px){
+.single-post #content #post-10 {
+	background-image:url(../images/golf.jpg);
+	background-repeat:no-repeat;
+	background-size:cover; 
+	color:black;
+}
+
+.single-post #content #post-10 a {
+	color:white !important;
+	text-decoration: underline !important;
+}
+	
+}
+
+.single-post #content #post-10 {
+	background-color:#70cdf8;
+	color:white;
+}
+
+@media only screen and (max-width:768px){
+	.single-post #content #post-10 p,
+	.single-post #content #post-10 h5 {
+		text-align: left !important;
+		color:white !important;
+	}
+	.single-post #content #post-10 p span,
+	.single-post #content #post-10 p span strong {
+		color:white !important;
+	}
+ 
+	
+}
+
+.wpregistration-save-button {
+	display:none !important;
+}
  
 
 

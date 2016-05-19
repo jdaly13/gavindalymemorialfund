@@ -44,9 +44,9 @@ function rara_post_nav() {
 	$previous = ( is_attachment() ) ? get_post( get_post()->post_parent ) : get_adjacent_post( false, '', true );
 	$next     = get_adjacent_post( false, '', false );
 
-	if ( ! $next && ! $previous ) {
+//	if ( ! $next && ! $previous ) {
 		return;
-	}
+//	}
 	?>
 	<nav class="navigation post-navigation" role="navigation">
 		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'rara-clean' ); ?></h1>
