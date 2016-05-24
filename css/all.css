@@ -1,6 +1,6 @@
 
-* { 
-	margin:0; 
+* {
+	margin:0;
 	padding:0;
 }
 ul, ol, dl, p, h1, h2, h3, h4, h5, h6, address, form, table, blockquote, applet, embed, object, iframe, frameset, mejs-container{margin:0 0 14px;}
@@ -76,7 +76,7 @@ blockquote:before, blockquote:after, q:before, q:after {content: '';}
 blockquote{
 	border-left:4px solid #ccc;
 	padding-left:10px;
-	margin-left:14px; 
+	margin-left:14px;
 }
 table, caption, tbody, tfoot, thead, tr, th, td{
 	border-collapse: collapse;
@@ -103,7 +103,7 @@ ul{ margin-left:1px; }
 ul, ol{ padding-left:3em; }
 ul ul,
 ul ol,
-ol ul, 
+ol ul,
 ol ol{
 	padding-left:3em;
 	margin:0;
@@ -211,7 +211,7 @@ dl dt{
 	/* border:1px solid #ccc;
 	padding:5px; */
 }
-.wp-caption img{vertical-align:top;} 
+.wp-caption img{vertical-align:top;}
 .wp-caption p{margin:10px 0 0; text-align: center;}
 div.aligncenter {margin: 0 auto 14px;}
 img.aligncenter {
@@ -221,13 +221,13 @@ img.aligncenter {
 }
 .alignleft {
 	float: left;
-	margin: 0 14px 4px 0; 
+	margin: 0 14px 4px 0;
 }
 .alignright {
 	float: right;
-	margin: 0 0 4px 14px; 
+	margin: 0 0 4px 14px;
 }
-article, aside, details,figcaption, figure, footer, header, fgroup, menu, nav, section, main{display:block;} 
+article, aside, details,figcaption, figure, footer, header, fgroup, menu, nav, section, main{display:block;}
 .widget table{
 	table-layout: fixed;
 	width: 100%;
@@ -489,7 +489,7 @@ article, aside, details,figcaption, figure, footer, header, fgroup, menu, nav, s
 #main h1 a:hover{
 	text-decoration: none;
 	color: #48c1dc;
-	
+
 }
 #main .readmore{
 	font:300 12px/24px 'Ubuntu', sans-serif;
@@ -586,7 +586,7 @@ article, aside, details,figcaption, figure, footer, header, fgroup, menu, nav, s
 	text-decoration:none;
 	padding:1px 15px;
 	border-radius:5px;
-   
+
 }
 /* sidebar style */
 #secondary .widget{
@@ -896,7 +896,7 @@ width: 41%;
 		display:block !important;
 	}
 	#nav .sub-menu{
-		left:-55px !important; 
+		left:-55px !important;
 		top:134% !important;
 		width:162px !important;
 		display:none !important;
@@ -936,7 +936,7 @@ width: 41%;
 		z-index:9999;
 	}
 	.open-close div.slide{
-		position:absolute !important; 
+		position:absolute !important;
 		display:none;
 		top:110px;
 		left:0;
@@ -1004,7 +1004,12 @@ width: 41%;
 		font-size:15px;
 		line-height:18px;
 	}
-	.banner-text{padding-top:9px;}
+	.banner-text{
+		bottom: 0px;
+		font-size:12px !important;
+		padding:3px;
+
+		}
 	.logo .tagline{
 		position:relative;
 		bottom:0;
@@ -1057,7 +1062,7 @@ div#jp-relatedposts div.jp-relatedposts-items-visual .jp-relatedposts-post {
 .single-post #content #post-10 {
 	background-image:url(../images/golf.jpg);
 	background-repeat:no-repeat;
-	background-size:cover; 
+	background-size:cover;
 	color:black;
 }
 
@@ -1065,7 +1070,7 @@ div#jp-relatedposts div.jp-relatedposts-items-visual .jp-relatedposts-post {
 	color:white !important;
 	text-decoration: underline !important;
 }
-	
+
 }
 
 .single-post #content #post-10 {
@@ -1083,13 +1088,10 @@ div#jp-relatedposts div.jp-relatedposts-items-visual .jp-relatedposts-post {
 	.single-post #content #post-10 p span strong {
 		color:white !important;
 	}
- 
-	
+
+
 }
 
 .wpregistration-save-button {
 	display:none !important;
 }
- 
-
-
